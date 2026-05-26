@@ -25,7 +25,7 @@ function renderTodos() {
         filteredTodos = todos.filter(todo => !todo.completed)
     }
 
-    // Filter Completed
+   
     if (currentFilter === 'completed') {
         filteredTodos = todos.filter(todo => todo.completed)
     }
